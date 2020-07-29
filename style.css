@@ -1,0 +1,103 @@
+/* font-family: 'Roboto', sans-serif; 
+font-family: 'Khula', sans-serif;
+#fc4445 • #3feee6 • #55bcc9 • #97caef • #cafafe
+#cc7676  #5390af  #5b4a6e */
+
+
+body {
+  background-image:url(images/background.jpeg);	
+  background-color: #cafafe;
+	font-family: 'Khula', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	color: #5390af ;
+  font-weight: 300;
+}
+
+h2 {
+	color: #5b4a6e;
+  font-weight: 400;
+}
+
+.pic-round {
+  width: 140px;
+  height: 140px;
+  border-radius: 150px;
+}
+
+.card {
+	background-color: white;
+  opacity: 0.8;
+	width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #97caef;
+  border-radius: 15px
+}
+
+.button_brown {
+	background-color: #cc7676;
+	color: white;
+	font-weight: 700;
+	border: none;
+	padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.button_brown:hover {
+  background-color: #97caef;
+  transform: scale(1.1);
+  transition: transform .7s;
+}
+
+.icon-social {
+	list-style: none;
+  padding-left: 0;
+}
+
+.icon-social li {
+  display: inline;
+  letter-spacing: 50px;
+}
+
+.icon-social i {
+  font-size: 16px;
+  color: #5b4a6e;
+}
+
+.fab:hover {
+  transform: scale(1.4);
+  transition: transform .7s;
+  color: #97caef;
+}
+
+.follow {
+  letter-spacing: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
